@@ -22,7 +22,7 @@ h1 {
   display: block;
   margin: 2rem auto;
   resize: none;
-  min-width: 100%;
+  max-width: 100vw;
   font-family: "Orbitron", sans-serif;
   padding: 0.5rem;
   box-sizing: border-box;
@@ -31,6 +31,10 @@ h1 {
   border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
   font-weight: bold;
+}
+
+::placeholder {
+  color: var(--secondary-color);
 }
 
 #btn {
@@ -47,11 +51,11 @@ h1 {
 
 #output {
   display: block;
-  margin: 2rem auto;
+  margin: 1rem auto;
   border: 2px solid var(--secondary-color);
-  max-width: 100%;
-  min-height: 12vh;
-  padding: 0.5rem;
+  max-width: 100vw;
+  min-height: 20vh;
+  padding: 1rem;
   border-radius: 5px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -59,11 +63,6 @@ h1 {
 }
 
 .container {
-  max-width: 500px;
-  margin: 2rem auto;
+  max-width: 800px;
+  margin: 4rem auto;
 }
-
-/* .header-image {
-  display: block;
-  max-height: 30vh;
-} */
