@@ -2,7 +2,7 @@
 
 :root {
   --primary-color: #111827;
-  --secondary-color: #10b981;
+  --secondary-color: #d1d5db;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #6b7280;
+  color: #d1d5db;
 }
 
 #input {
